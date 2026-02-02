@@ -1,14 +1,22 @@
 {
+  "$schema": "node_modules/@digdir/designsystemet/dist/config.schema.json",
+  "outDir": "./design-tokens",
   "themes": {
-    "sample-theme": {
+    "theme": {
       "colors": {
-        "main": { "primary": "#0062BA" },
+        "main": {
+          "accent": "#0a8f97"
+        },
+        "support": {},
         "neutral": "#24272B"
       },
-      "borderRadius": 4,
-      "typography": {
-        "fontFamily": "Inter"
-      }
+      "overrides": {
+        "severity": {
+          "danger": "#cf1f1f"
+        }
+      },
+      "borderRadius": 4
     }
   }
 }
+
