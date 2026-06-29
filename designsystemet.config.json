@@ -1,22 +1,21 @@
 {
-  "$schema": "node_modules/@digdir/designsystemet/dist/config.schema.json",
   "outDir": "./design-tokens",
   "themes": {
     "theme": {
       "colors": {
-        "main": {
-          "accent": "#0a8f97"
-        },
-        "support": {},
-        "neutral": "#24272B"
+        "primary": "#283b47",
+        "accent": "#ab091d",
+        "neutral": "#343a40"
       },
       "overrides": {
         "severity": {
-          "danger": "#cf1f1f"
+          "info": "#17a2b8",
+          "success": "#28a745",
+          "warning": "#ffc107",
+          "danger": "#dc3545"
         }
       },
       "borderRadius": 4
     }
   }
 }
-
