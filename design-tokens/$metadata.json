@@ -16,6 +16,7 @@
     "semantic/color/primary",
     "semantic/color/accent",
     "semantic/color/neutral",
+    "semantic/color/mandarin",
     "semantic/color/info",
     "semantic/color/success",
     "semantic/color/warning",

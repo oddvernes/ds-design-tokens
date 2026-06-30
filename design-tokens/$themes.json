@@ -124,6 +124,14 @@
     "group": "Color"
   },
   {
+    "id": "e6b47f32bdbcdb96aca2df6c8ccc190df3020828",
+    "name": "mandarin",
+    "selectedTokenSets": {
+      "semantic/color/mandarin": "enabled"
+    },
+    "group": "Color"
+  },
+  {
     "id": "59bd0a3ff43b32849b319e645d4798d8a5d1e889",
     "name": "info",
     "selectedTokenSets": {
