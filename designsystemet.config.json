@@ -3,9 +3,10 @@
   "themes": {
     "theme": {
       "colors": {
-        "primary": "#283b47",
-        "accent": "#ab091d",
-        "neutral": "#343a40"
+        "primary": "#004767",
+        "accent": "#af0917",
+        "neutral": "#343a40",
+        "mandarin": "#f29400"
       },
       "overrides": {
         "severity": {
