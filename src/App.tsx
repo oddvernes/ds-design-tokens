@@ -9,6 +9,7 @@ import {
 } from "@navikt/aksel-icons";
 import logo from "./assets/kt_logo_full.svg";
 import logoDark from "./assets/kt_logo_full_dark.svg";
+import logoWhite from "./assets/kt_logo_full_white.svg";
 import { useState } from "react";
 
 function App() {
@@ -88,7 +89,9 @@ function App() {
         data-color-scheme="light"
         className="ktui-footer"
       >
-        <div>footer</div>
+        <div className="l-content-short">
+          <img src={logoWhite} alt="Logo" />
+        </div>
       </footer>
     </>
   );

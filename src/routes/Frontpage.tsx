@@ -5,7 +5,6 @@ import {
   Heading,
   Paragraph,
 } from "@digdir/designsystemet-react";
-import { ChevronRightIcon } from "@navikt/aksel-icons";
 import {
   HandshakeIcon,
   ScalesIcon,
@@ -176,8 +175,11 @@ function Frontpage() {
               om tipsers identitet i saker om ulovlig samarbeid og misbruk av
               dominerende stilling. 
             </p>
+            <p>
+              Ring oss på <b>+47 45 65 95 24</b>
+            </p>
             <a href="#">
-              Gå til tipsskjema <ChevronRightIcon />
+              Gå til tipsskjema <ArrowRightIcon />
             </a>
           </div>
         </div>
@@ -222,12 +224,7 @@ function Frontpage() {
             data-only-title
           >
             <div>
-              <GasPumpIcon
-                style={{ rotate: "-90deg" }}
-                color="currentColor"
-                size={48}
-                aria-hidden="true"
-              />
+              <GasPumpIcon color="currentColor" size={48} aria-hidden="true" />
             </div>
             <a href="#" className="ds-heading" data-size="md" id="tilsyn-3">
               Drivstoff
