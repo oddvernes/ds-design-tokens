@@ -297,4 +297,22 @@
       aspect-ratio: 1;
     }
   }
+
+  .ktui-tips-page {
+    margin-top: var(--ds-size-10);
+
+    .faq {
+      margin-block: var(--ds-size-10) var(--ds-size-15);
+    }
+
+    h1 {
+      margin-bottom: 0.5lh;
+    }
+    :where(h1, p) {
+      max-inline-size: 75ch;
+    }
+    p + p {
+      margin-top: 1lh;
+    }
+  }
 }

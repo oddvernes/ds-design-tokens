@@ -15,6 +15,7 @@ import {
   GasPumpIcon,
   TaxiIcon,
 } from "@phosphor-icons/react";
+import { Link } from "react-router";
 import tipsImg from "../assets/tips.svg";
 
 function Frontpage() {
@@ -178,9 +179,9 @@ function Frontpage() {
             <p>
               Ring oss på <b>+47 45 65 95 24</b>
             </p>
-            <a href="#">
+            <Link to="/tips">
               Gå til tipsskjema <ArrowRightIcon />
-            </a>
+            </Link>
           </div>
         </div>
       </section>

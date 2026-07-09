@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router";
 import Frontpage from "./routes/Frontpage.tsx";
+import Tips from "./routes/Tips.tsx";
 import { Button } from "@digdir/designsystemet-react";
 import {
   MagnifyingGlassIcon,
@@ -50,8 +51,8 @@ function App() {
       <header className="ktui-header">
         <div>
           <a href="/">
-            <img data-light-only src={logo} alt="Logo" />
-            <img data-dark-only src={logoDark} alt="Logo" />
+            <img draggable="false" data-light-only src={logo} alt="Logo" />
+            <img draggable="false" data-dark-only src={logoDark} alt="Logo" />
           </a>
           <nav>
             <Button
@@ -82,6 +83,7 @@ function App() {
       <main className="ktui-main">
         <Routes>
           <Route path="/" element={<Frontpage />} />
+          <Route path="/tips" element={<Tips />} />
         </Routes>
       </main>
       <footer
